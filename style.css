@@ -1,23 +1,89 @@
+/* General page */
+
 body {
     font-family: Arial, sans-serif;
     max-width: 900px;
     margin: 0 auto;
-    padding: 40px 20px;
-    line-height: 1.6;
+    padding: 50px 30px;
+    line-height: 1.7;
     color: #333;
 }
 
+
+/* Header */
+
+header {
+    margin-bottom: 30px;
+}
+
 h1 {
-    font-size: 36px;
+    font-size: 42px;
     margin-bottom: 5px;
+    color: #222;
+}
+
+.position {
+    font-size: 19px;
+    margin-bottom: 0;
+}
+
+
+/* Navigation */
+
+nav {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 12px 0;
+    margin-bottom: 50px;
+}
+
+nav a {
+    margin-right: 25px;
+    text-decoration: none;
+    color: #444;
+}
+
+nav a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+
+/* Sections */
+
+section {
+    margin-bottom: 50px;
 }
 
 h2 {
-    margin-top: 40px;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 5px;
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #222;
 }
 
 p {
     font-size: 17px;
+}
+
+li {
+    font-size: 17px;
+    margin-bottom: 8px;
+}
+
+
+/* Links */
+
+a {
+    color: #245a9b;
+}
+
+
+/* Footer */
+
+footer {
+    border-top: 1px solid #ddd;
+    margin-top: 60px;
+    padding-top: 20px;
+    color: #777;
+    font-size: 14px;
 }
