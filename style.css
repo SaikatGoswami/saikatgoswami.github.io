@@ -2,12 +2,18 @@ body {
   font-family: Arial, sans-serif;
   max-width: 700px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 20px 20px 20px 50px;
   color: #222;
+  line-height: 1.6;
+  background-color: #FFFDF7;
+  background-image: linear-gradient(#d8d3c0 1px, transparent 1px);
+  background-size: 100% 32px;
 }
 
 h1 {
+  font-family: 'Caveat', cursive;
   color: #1F6F6B;
+  font-size: 3rem;
 }
 
 a {
@@ -34,10 +40,14 @@ nav a:hover {
 }
 
 h2 {
+  font-family: 'Caveat', cursive;
+  font-size: 2rem;
+  color: #1F6F6B;
   margin-top: 40px;
   border-bottom: 2px solid #eee;
   padding-bottom: 6px;
 }
+
 
 ul {
   line-height: 1.8;
