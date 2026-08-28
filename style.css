@@ -2,12 +2,15 @@ body {
   font-family: Arial, sans-serif;
   max-width: 700px;
   margin: 0 auto;
-  padding: 20px 20px 20px 50px;
+  padding: 4px 20px 20px 50px;
   color: #222;
-  line-height: 1.6;
+  font-size: 18px;
+  line-height: 32px;
   background-color: #FFFDF7;
-  background-image: linear-gradient(#d8d3c0 1px, transparent 1px);
-  background-size: 100% 32px;
+  background-image:
+    linear-gradient(#d8d3c0 1px, transparent 1px),
+    linear-gradient(90deg, transparent 49px, #e3a5a5 49px, #e3a5a5 51px, transparent 51px);
+  background-size: 100% 32px, 100% 100%;
 }
 
 h1 {
